@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Input, Button } from 'semantic-ui-react';
 import "../App.css"
+import FlipMove from "react-flip-move";
 
 
 class TodoList extends Component {
@@ -54,11 +55,13 @@ class TodoList extends Component {
             <Button type="submit">Add</Button>
           </form>
           <ul className="theList">
+            <FlipMove duration={250} easing="ease-out">
             {
               this.state.items.map((item) => <li
               onClick = {this.delete}
               key={item}> {item} </li> )
             }
+            </FlipMove>
           </ul>
         </div>
       </div>
