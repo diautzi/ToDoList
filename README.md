@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Todo List
-
+![Image](https://github.com/diautzi/ToDoList/blob/master/todo.png)
 
 ## Installation
 ```
