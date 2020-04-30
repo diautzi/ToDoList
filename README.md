@@ -2,12 +2,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Todo List
 
+
 ## Installation
 ```
 fork and clone the project
 npm install
 npm start
 ```
+The app will run on http://localhost:3000
+
 ## Usage
 Simple Todo List: 
 - an user can **add** item to his Todo List
@@ -17,3 +20,4 @@ Simple Todo List:
 **react-flip-move** - easing  transition for adding and for removing item from the list
 
 ## Demo
+[Todo List Demo](https://github.com/diautzi/ToDoList/blob/master/Demo.mov)
